@@ -123,3 +123,6 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 44px以上のタップ領域を強制 */
+.tap-target { min-width: 44px; min-height: 44px; }
